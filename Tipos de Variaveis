@@ -1,0 +1,24 @@
+#principais tipagens de variáveis
+
+# Tipos numéricos
+idade = 25  # Variável do tipo inteiro
+altura = 1.75  # Variável do tipo float
+
+# Tipo string
+nome = "João"  # Variável do tipo string
+
+# Tipo booleano
+tem_carro = True  # Variável do tipo booleano
+
+# Solicitação de dados ao usuário
+nome_usuario = input("Digite seu nome: ")
+idade_usuario = int(input("Digite sua idade: "))
+altura_usuario = float(input("Digite sua altura em metros: "))
+tem_carro_usuario = input("Você tem carro? (Sim/Não): ").lower() == "sim"
+
+# Imprimindo os dados do usuário com mensagem personalizada
+print("\nInformações do Usuário:")
+print("Nome:", nome_usuario)
+print("Idade:", idade_usuario, "anos")
+print("Altura:", altura_usuario, "metros")
+print("Tem carro:", "Sim" if tem_carro_usuario else "Não")
